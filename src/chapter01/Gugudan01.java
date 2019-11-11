@@ -1,6 +1,6 @@
 package chapter01;
 
-public class Gugudan1 {
+public class Gugudan01 {
 
 	public static void main(String[] args) {
 		int i = 1;
