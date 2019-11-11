@@ -12,9 +12,14 @@ public class PrimeDetect {
 		int num = scanner.nextInt();
 		boolean isPrime = true;
 		
-		// while 
-		// ㆍㆍㆍ
-
+		while(i < num) {
+			int result = num % i;
+			if( result == 0) {
+				isPrime = false;
+				break;
+			}
+			i++;
+		}
 		
 		if(isPrime) {
 			System.out.println(num + "은 소수입니다.");
